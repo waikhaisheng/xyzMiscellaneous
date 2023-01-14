@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TplExtensionLib", "TplExtensionLib\TplExtensionLib.csproj", "{1CC909ED-ACA5-4B1F-96C4-6EDBD475E834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TplExtensionLib", "TplExtensionLib\TplExtensionLib.csproj", "{1CC909ED-ACA5-4B1F-96C4-6EDBD475E834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F7051348-A5D6-43ED-B6D6-50651F1D64EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTplExtensionLib", "TestTplExtensionLib\TestTplExtensionLib.csproj", "{78807E84-EEC4-4E57-AF44-CE0E7B35E58E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{1CC909ED-ACA5-4B1F-96C4-6EDBD475E834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CC909ED-ACA5-4B1F-96C4-6EDBD475E834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CC909ED-ACA5-4B1F-96C4-6EDBD475E834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78807E84-EEC4-4E57-AF44-CE0E7B35E58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78807E84-EEC4-4E57-AF44-CE0E7B35E58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78807E84-EEC4-4E57-AF44-CE0E7B35E58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78807E84-EEC4-4E57-AF44-CE0E7B35E58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78807E84-EEC4-4E57-AF44-CE0E7B35E58E} = {F7051348-A5D6-43ED-B6D6-50651F1D64EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BD3818F-ECA9-43BA-82FD-2E70ED67A62A}
